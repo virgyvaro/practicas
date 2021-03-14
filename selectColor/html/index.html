@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>SelectColor</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-warning bg-primary">
+        <h1 class="display-4 text-light mx-auto">SelectColor</h1>
+    </nav>
+
+    <!-- Main -->
+    <div class="jumbotron jumbotron-fluid">
+        <!-- <h1 class="display-4">Title</h1>
+        <p class="lead">Subtitle</p>
+        <hr class="my-4">
+        <p>Content</p> -->
+
+        <div class="container">
+            <p class="display-2">
+                Elige un color:
+            </p>
+            <div class="row">
+                <i class="fas fa-arrow-down fa-3x mx-auto m-3 animate__animated animate__bounce animate__infinite	infinite iconoUno"></i>
+                <i class="fas fa-paint-brush fa-3x mx-auto m-3 animate__animated animate__bounce animate__infinite	infinite iconoDos"></i>
+            </div>
+            <input type="color" name="color" id="color" class="form-control form-control-color"
+                onchange="cambioColor()">
+        </div>
+    </div>
+
+    <div class="container">
+        <p class="text-center">
+            Color seleccionado:
+        </p>
+        <div class="col-12 py-5 shadow colorDiv">
+            <p class="text-center display-4" id="hexadecimal">
+            </p>
+        </div>
+    </div>
+
+    <div class="py-5 mt-5 bg-primary">
+        <p class="display-4 text-light">
+            footer
+        </p>
+    </div>
+
+
+
+
+</body>
+<!-- JS Bootswatch -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<!-- JS Externo -->
+<script src="../js/app.js"></script>
+
+</html>

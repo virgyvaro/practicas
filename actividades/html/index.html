@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/pulse/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Actividades de JS</title>
+</head>
+
+<body>
+    <!-- Hero -->
+    <div class="jumbotron jumbotron-fluid bg-primary">
+        <h1 class="display-4 text-warning text-center"><b>Actividadades de JavaScript</b></h1>
+    </div>
+
+    <!-- Actividad 1 -->
+    <!-- Main -->
+    <div class="container bg-info py-3 col-sm-12 col-md-8">
+        <h2 class="text-white">Actividad 1</h2>
+        <p class="text-center texto text-dark" id="mensaje">
+        </p>
+    </div>
+
+    <br>
+    <br>
+    <hr class="py-1">
+    <br>
+    <br>
+
+    <!-- Actvidad 2 -->
+    <!-- Main -->
+    <div class="container bg-info py-3 col-sm-12 col-md-8">
+        <h2 class="text-white">Actividad 2</h2>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend mt-4">
+                <span class="input-group-text">Ingresa el valor del lado:</span>
+            </div>
+            <input type="number" class="mt-4" id="lado">
+            <span>
+                <button type="button" class="btn btn-success mt-4 ml-5 " onclick="area()">Calcular Área del
+                    Cuadrado</button>
+            </span>
+            <span class="ml-5">
+                <div class="container mt-4 text-dark">
+                    <b id="resul">
+
+                    </b>
+                </div>
+            </span>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <hr class="py-1">
+    <br>
+    <br>
+
+    <!-- Actvidad 3 -->
+    <!-- Main -->
+    <div class="container bg-info py-3 col-sm-12 col-md-8">
+        <h2 class="text-white">Actividad 3</h2>
+        <div class="input-group mb-3">
+            <div class="row mx-auto">
+                <div class="input-group-prepend mt-4 ml-1">
+                    <span class="input-group-text">Ingresa tu peso:</span>
+                </div>
+                <input type="number" class="mt-4" id="peso">
+                <div class="input-group-prepend mt-4 ml-1">
+                    <span class="input-group-text">Ingresa tu altura:</span>
+                </div>
+                <input type="number" class="mt-4" id="altura">
+            </div>
+            <button type="button" class="btn btn-success mt-4 mx-auto" onclick="calcular()">
+                Calcular
+            </button>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <hr class="py-1">
+    <br>
+    <br>
+
+    <!-- Actvidad 4 -->
+    <!-- Main -->
+    <div class="container bg-info py-3 col-sm-12 col-md-8">
+        <h2 class="text-white">Actividad 4</h2>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend mt-4">
+                <span class="input-group-text">Ingresa un número:</span>
+            </div>
+            <input type="number" class="mt-4" id="num">
+            <span>
+                <button type="button" class="btn btn-success mt-4 ml-5 " onclick="evaluar()">
+                Evaluar número
+                </button>
+            </span>
+            <span>
+                <div class="container mt-4 text-dark ml-5">
+                    <b id="resultado">
+
+                    </b>
+                </div>
+            </span>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid bg-primary py-2 mt-5 text-center text-warning">
+            Actividades de JavaScript
+        </div>
+    </footer>
+
+</body>
+<!-- JS Bootswatch -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<!-- JS Externo -->
+<script src="../js/app.js"></script>
+<script src="../js/pk2.js"></script>
+<script src="../js/pk3.js"></script>
+<script src="../js/pk4.js"></script>
+
+</html>
