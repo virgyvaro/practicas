@@ -1,9 +1,9 @@
-console.log('❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖');
-console.log(' Reloj Digital ');
-console.log('❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖');
+// console.log('❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖');
+// console.log(' Reloj Digital ');
+// console.log('❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖');
 
 var digital = document.querySelector('#reloj');
-console.log(digital);
+// console.log(digital);
 
 // clases en JS
 // new Date() --> clase de tipo fecha y ya viene en el objeto global

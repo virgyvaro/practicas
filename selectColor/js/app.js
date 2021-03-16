@@ -1,6 +1,6 @@
-console.log('❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖');
-console.log(' Practica de Color ');
-console.log('❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖');
+// console.log('❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖');
+// console.log(' Practica de Color ');
+// console.log('❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖');
 
 // var color = document.querySelector('#color');
 
@@ -10,7 +10,7 @@ console.log('❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖❖');
 function cambioColor() {
     // Pertenece al input para que se visualice como una barrita de color
     var color = document.querySelector('#color');
-    console.log(color.value);
+    // console.log(color.value);
 
     // Escribe el nombre del color en hexadecimal 
     var texto = document.querySelector('#hexadecimal');

@@ -1,5 +1,4 @@
 //Actividad 4
-
 function evaluar() {
     var valor = document.getElementById('num').value;
     if (valor % 2 == 0) {
